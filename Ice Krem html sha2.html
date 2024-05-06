@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Krem</title>
+    <!--Link TO CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <!--Menu Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--Links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!--Icon-->
+        <div class="header-icon">
+            <i class='bx bx-cart'></i>
+            <i class='bx bx-search' id="search-icon"></i>
+        </div>
+        <!--Search Box-->
+        <div class="search-box">
+            <input type="search" name="" placeholder="Search Here...">
+        </div>
+    </header>
+ <!--Home-->
+ <section class="home" id="home">
+    <div class="home-text">
+        <h1>Start your day <br> with Ice Krem</h1>
+        <p>Ice Krem is a yummy treat that we all love. It comes in many flavors like chocolate, vanilla, strawberry, and many more. Some people like it in a bowl, and some like it in a cone. Our Ice Krem is perfect for hot summer days as it cools us down. It’s also great for parties or just as a sweet treat after dinner. So next time you have ice cream, try a new flavor and enjoy this tasty treat even more.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="home-img">
+        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/438223369_1143452233355221_8265738416310971780_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEIhUhX0YUw9heahsH10XHcoOPLDJyW7Mug48sMnJbsy5wRkjLCCrmjNcxIe3YclHLiKM3jLWTJrv8cG6B2zrxt&_nc_ohc=xYErzASlweIQ7kNvgGFubWf&_nc_ht=scontent.fmnl17-3.fna&oh=03_Q7cD1QFoopVSAlurNshMXpnptbm1RBz25hEc9kQtQIO2wgllBw&oe=665DDE17" alt="">
+    </div>
+ </section>
+
+<!--About-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="https://i.pinimg.com/564x/61/d9/4d/61d94d7e362e4ec03b44286f799877c9.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <h2>Our History</h2>
+        <p>Ice cream, frozen dairy food and common dessert made from cream or butterfat, milk, sugar, and flavourings.
+        </p>
+        <p>The mix, with flavourings, is poured into a canister surrounded with ice and salt or a refrigerator unit. The contents of the canister are agitated by means of a hand crank or electric motor until the ice cream is softly frozen. The ice cream is usually allowed to harden further in a freezer.
+        </p>
+        <p>Commercial ice cream is made by combining, under constant agitation, the liquid ingredients (milk, cream, syrups, etc.). These liquids are heated and combined with dry ingredients (sugar, stabilizers, dried eggs or milk) to form a mix, which is then pasteurized and homogenized.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+
+</section>
+<!--Products-->
+<section class="products" id="products">
+    <div class="heading">
+        <h2>Our Products</h2>
+         </div>
+         <!--Container-->
+    <div class="products-container">
+         <div class="box">
+            <img src="https://i.pinimg.com/564x/fa/5b/b6/fa5bb650bcd699a619207116a1c6e80f.jpg" alt="">
+            <h3>Chocolate Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/cf/de/a1/cfdea1b08bbb19dd5e10c7677f97b704.jpg" alt="">
+            <h3>Vanilla Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/b3/0d/66/b30d660c747fd92ddab0d460a13f999f.jpg" alt="">
+            <h3>Cookies 'n' Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/79/4f/d7/794fd7ea4dc9b28b8b4723d001f9f84e.jpg" alt="">
+            <h3>Strawberry Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/af/0f/2c/af0f2ca6c64d85b628270abe9d72e2e8.jpg" alt="">
+            <h3>Coffee Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/20/3d/b9/203db901c3c0600c1a60fd8fe2836219.jpg" alt="">
+            <h3>Matcha Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/fa/5b/b6/fa5bb650bcd699a619207116a1c6e80f.jpg" alt="">
+            <h3>Rocky Road</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/5a/ca/2e/5aca2e9ad6355f32ac6b829cc5713f3e.jpg" alt="">
+            <h3>Mango Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/db/9d/c9/db9dc9b2114c825b8acaa08e04d1fa53.jpg" alt="">
+            <h3>Ube Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://i.pinimg.com/564x/fe/2f/55/fe2f550a3b6d017285e3d78e541c7a8f.jpg" alt="">
+            <h3>Neapolitan Ice Cream</h3>
+            <div class="content">
+                <span>₱30</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Customers-->
+<section class="customers" id="customers">
+    <div class="heading">
+        <h2>Our Customers</h2>
+         </div>
+         <!--Container-->
+         <div class="customers-container">
+              <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Yummy Strawberry Ice Cream!</p>
+                <h2>Alexa</h2>
+                <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/434651919_951961839812097_1916038646414304341_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFQYsCxONzLaGRtliptna2kCdBbQzhMo5AJ0FtDOEyjkIKD8FEWqgQgToXFBogqx-PEsYXG8WbFneOWBZ9dO_c-&_nc_ohc=h8k8FIITANoQ7kNvgHtWUQa&_nc_ht=scontent.fmnl17-1.fna&oh=03_Q7cD1QG8qKReIOiFnJnD_ZiuQyIUVkIysV9nBf9MUitEqBQjYA&oe=665EB4F5" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Delicious Matcha Ice Cream!</p>
+                <h2>Rhinoa</h2>
+                <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t1.15752-9/421621116_766916181965577_1264615013593559014_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFK8lZo_nqJoGaSm4pD7DLhreIO58rYTyWt4g7nythPJXo4o0qxX5KmEg5fwTLV52HohbG199eXY08NfTnBxiTR&_nc_ohc=PPs95d-KnDUQ7kNvgHm2d5a&_nc_ht=scontent.fmnl17-5.fna&oh=03_Q7cD1QHphKz1RHNQ6rKvozlfTKYGjSP8oSEgvYFTc18WSOcdDA&oe=665E9DA0" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Delicious Chocolate Ice Cream!</p>
+                <h2>Shanaia</h2>
+                <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/439839477_962584555590315_2596064972154686712_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGr3LcQd4Il5cgqvGQaN1uYszME923qMyizMwT3beozKIEJADQtG7cyAMKhgqgzOC4zcKtPCn3qgFQlwckDpf7s&_nc_ohc=cIbSroFoQWcQ7kNvgEpuU4B&_nc_ht=scontent.fmnl17-1.fna&oh=00_AfBWQtU51ARArs5ayLoMD9c9af73K0x5BnVZHrLpsDq96g&oe=663D1B32" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Tasty Neapolitan Ice Cream!</p>
+                <h2>Loreine</h2>
+                <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/440399301_464689742794023_8681371209714857446_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH6PiHyUdg6lJ1yMB08uwuXzP1HJd2UN1PM_Ucl3ZQ3U-4c6WJ18s7Mr-fGVpDIpg9EoT9TwBRvigO3joEeUeu6&_nc_ohc=HGF2O6JyzikQ7kNvgHYkA8K&_nc_ht=scontent.fmnl17-4.fna&oh=03_Q7cD1QG-n5pii5RrsxgO6BqZBHgb4g7ecEKS7lYNKiZGeWi7xg&oe=665EBAC2" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>Marvelous taste on the Cookies 'n' Cream! Will definitely come back for more.</p>
+                <h2>Jillian</h2>
+                <img src="https://scontent.fcrk1-1.fna.fbcdn.net/v/t1.15752-9/438051631_3620287898226789_8020769856362223615_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG4TAS7cXD8JTjwRqEtGEbID2QL2BUAAKcPZAvYFQAApxoo6qS_hzM47nLZ3ihmc-y5uKIF9AgkgVD9ypxWWRom&_nc_ohc=U5T9KQ4pPO4Q7kNvgGhgota&_nc_ht=scontent.fcrk1-1.fna&oh=03_Q7cD1QGZtAmUpuMr5DTc-myCLtKoKXvsoJY0ezqLNd2LhG1Mcw&oe=665EB6A1" alt="">
+            </div>
+         </div>
+</section>
+<section class="footer">
+    <div class="footer-box">
+        <h3>Ice Krem</h3>
+        <p>Our Socials</p>
+        <p>You can now contact us from:</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h3>Support</h3>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+        <li><a href="#">Product</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>View Guides</h3>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog Posts</a></li>
+        <li><a href="#">Our Branches</a></li>
+    </div>
+    <div class="footer-box">
+        <h3>Contact</h3>
+        <div class="contact">
+            <span><i class='bx bxs-map' ></i>Bayanihan, Gapan City, Nueva Ecija, Philippines</span>
+            <span><i class='bx bxs-phone' ></i>+967 8328 328</span>
+            <span><i class='bx bxl-gmail'></i></i>IceKrem@gmail.com</span>
+        </div>
+    </div>
+</section>
+<!--Copytight-->
+<div class="copyright">
+    <p>Made By Kristine J. De Leon</p>
+</div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
